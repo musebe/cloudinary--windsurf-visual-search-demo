@@ -1,0 +1,73 @@
+/* FILE: style.css */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Styling for the content rendered from Markdown */
+#content h1,
+#content h2,
+#content h3 {
+    color: #111;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+#content p {
+    margin-bottom: 1rem;
+}
+
+#content code {
+    background-color: #eee;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#content pre {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+#content pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+#content blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 1rem;
+    color: #666;
+    margin-left: 0;
+}
+
+#content ul,
+#content ol {
+    padding-left: 1.5rem;
+}
+
+#content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
